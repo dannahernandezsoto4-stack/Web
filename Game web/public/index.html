@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NIGHT AFRAID</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">NIGHT AFRAID</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#info">Más Info</a></li>
+        <li><a href="#personajes">Personajes</a></li>
+        <li><a href="#redes">Redes</a></li>
+        <li><button id="btn-modo" class="btn-toggle"> MODO DÍA</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="revelar">
+      <h1>NIGHT AFRAID</h1>
+      <h2>La ciudad es tuya de día. Sobrevive de noche.</h2>
+    </section>
+
+    <section id="historia" class="revelar">
+      <div class="historia-box">
+        <h2>Historia</h2>
+        <p>Bienvenido a New Haven, la única metrópoli donde el sueño americano se construye de día y se defiende con sangre de noche. Tras un colapso económico devastador, la ciudad sobrevivió gracias a una medida extrema: el Decreto de Seguridad Nocturna. Bajo la luz del sol, eres un ciudadano ejemplar; trabajas, compras el auto de tus sueños y amueblas tu casa ideal bajo la protección absoluta de la policía. Pero cuando el reloj marca las 12:00 AM, la ley desaparece, las sirenas se apagan y las puertas del caos se abren de par en par. Durante seis horas de anarquía legalizada, las calles se convierten en una zona de guerra táctica donde tus vecinos se vuelven tus peores enemigos. ¿Tendrás las agallas para saquear las mansiones más ricas, defender tu propio patrimonio y sobrevivir al terror hasta que el sol vuelva a salir a las 6:00 AM?</p>
+      </div>
+    </section>
+
+    <section id="info" class="revelar">
+      <h2 class="titulo-sesgado">Características destacadas</h2>
+      <div class="contenedor-zigzag">
+        <p class="parrafo-animado izquierda"><strong>Dualidad Temporal:</strong> Alternancia estricta entre una fase diurna de simulador social (6:00 AM – 12:00 AM) y una fase nocturna de supervivencia táctica (12:00 AM – 6:00 AM).</p>
+        <p class="parrafo-animado derecha"><strong>Patrimonio con Valor Real:</strong> Todo lo que compras, amueblas y construyes durante el día es exactamente el botín físico que debes defender o saquear durante la noche.</p>
+        <p class="parrafo-animado izquierda"><strong>Sistema de Ley Dinámico:</strong> Orden legal diurno con intervención policial e ingreso a prisión, contra la anarquía nocturna donde todos los delitos se vuelven legales.</p>
+        <p class="parrafo-animado derecha"><strong>Economía Interactiva:</strong> Trabajos en comercios locales para ganar dinero, compra de terrenos, casas modulares, decoración de interiores y concesionarios de vehículos.</p>
+        <p class="parrafo-animado izquierda"><strong>Clasificatorio Nocturno:</strong> Puntuación en tiempo real a las 6:00 AM que premia al ganador de la noche según el valor del botín hurtado y las bajas conseguidas.</p>
+        <p class="parrafo-animado derecha"><strong>Multijugador Optimizada:</strong> Servidores dedicados para 30 jugadores, con inteligencia artificial confinada en el interior de comercios para maximizar el rendimiento PvP.</p>
+      </div>
+    </section>
+
+    <section id="personajes" class="revelar">
+      <h2 class="titulo-sesgado">Personajes</h2>
+      <div class="personajes-grid">
+        <div class="personaje-card">
+          <img src="img/Valerie.jpg" alt="Valerie" />
+          <div class="card-info">
+            <h3>Valerie</h3>
+            <p>Especialista en infiltración y combate cerrado.</p>
+            <div class="habilidades">
+              <span class="hab-nombre">Sigilo</span>
+              <div class="barra"><div class="progreso" style="width: 90%;"></div></div>
+              <span class="hab-nombre">Fuerza</span>
+              <div class="barra"><div class="progreso" style="width: 60%;"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="personaje-card">
+          <img src="img/Mia.jpg" alt="Mia" />
+          <div class="card-info">
+            <h3>Mia</h3>
+            <p>Experta en armamento pesado y explosivos.</p>
+            <div class="habilidades">
+              <span class="hab-nombre">Armas</span>
+              <div class="barra"><div class="progreso" style="width: 95%;"></div></div>
+              <span class="hab-nombre">Velocidad</span>
+              <div class="barra"><div class="progreso" style="width: 50%;"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="personaje-card">
+          <img src="img/Nix.jpg" alt="Nix" />
+          <div class="card-info">
+            <h3>Nix</h3>
+            <p>Estratega táctico y conductor de huida.</p>
+            <div class="habilidades">
+              <span class="hab-nombre">Manejo</span>
+              <div class="barra"><div class="progreso" style="width: 100%;"></div></div>
+              <span class="hab-nombre">Táctica</span>
+              <div class="barra"><div class="progreso" style="width: 85%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="redes" class="revelar">
+      <h2 class="titulo-sesgado">Siguenos en nuestras redes sociales</h2>
+      <div class="links-redes">
+       <a href="https://www.facebook.com/profile.php?id=61596186598431&locale=es_LA" target="_blank" rel="noopener">Facebook</a>
+       <a href="https://www.instagram.com/night_afraid/" target="_blank" rel="noopener">Instagram</a>
+       <a href="https://x.com/NIGHTAFRAID" target="_blank" rel="noopener">Twitter</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
